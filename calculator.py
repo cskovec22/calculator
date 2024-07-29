@@ -15,7 +15,21 @@ class Calculator():
 
         return a + b
 
+    def sub(self, a: float, b: float) -> float:
+        """
+        Вычесть из одного числа другое.
+
+        Параметры:
+            a (float): Первое число.
+            b (float): Второе число.
+
+        Результат:
+            float: Результат вычитания.
+        """
+
+        return a - b
+
 
 if __name__ == "__main__":
     calculator = Calculator()
-    print(calculator.add(1, 0.5))
+    print(calculator.sub(1, 55))
